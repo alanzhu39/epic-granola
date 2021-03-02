@@ -1,9 +1,13 @@
 const Header = ({ title }) => {
     return (
-        <header>
-            <h1>My Header</h1>
-            <h2>This is my {title}</h2>
-        </header>
+        <div className='tabs is-centered'>
+            <ul>
+                <li className='is-active' />
+                <li><a>Music</a></li>
+                <li><a>Videos</a></li>
+                <li><a>Documents</a></li>
+            </ul>
+        </div>
     )
 }
 

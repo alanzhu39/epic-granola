@@ -1,6 +1,8 @@
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
-import Header from '.\\components\\Header';
-import Navbar from '.\\components\\Navbar';
+import Header from './components/Header';
+import Navbar from './components/Navbar';
+import Open from './components/Open';
+import './App.sass';
 
 function App() {
   const name = 'Alan';
@@ -17,7 +19,7 @@ function App() {
             </Route>
           </Switch>
           </div>
-        <Header title={name}></Header>
+        <Open></Open>
       </BrowserRouter>
     </div>
   );
